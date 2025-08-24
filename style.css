@@ -15,6 +15,16 @@ h1 {
     text-align: center;
 }
 
+
+#list-of-links-to-recipes {
+    border: 2px solid red;
+}
+
+.links-to-recipes {
+    border: 2px solid gold;
+}
+
+
 /* Recipe pages */
 .header-food-page {
     font-size: 50px;
@@ -29,6 +39,4 @@ img {
     height: auto;
     align-self: center;
     margin: 10px auto;
-
-
 }
