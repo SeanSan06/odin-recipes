@@ -8,7 +8,7 @@ h1 {
     margin: auto 0px;
     text-align: center;
     padding: 10px;
-    /* border-bottom: 2px solid orange; */
+    border-bottom: 2px solid orange;
 }
 
 #front-page-header {
@@ -21,4 +21,14 @@ h1 {
     margin: auto 0px;
     text-align: center;
     padding: 10px;
+}
+
+img {
+    display: block;
+    width: 95%;
+    height: auto;
+    align-self: center;
+    margin: 10px auto;
+
+
 }
