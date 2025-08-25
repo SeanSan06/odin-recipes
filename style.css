@@ -1,5 +1,6 @@
 * {
     box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 /* Home page */
@@ -35,16 +36,21 @@
         gap: 10px;
         padding: 10px;
         margin: 0px;
+        
     }
 
     .home-images {
         height: 220px;
-        widht: auto;
+        width: 350px;
+        border: 2px solid coral;
+        
     }
 
     .links-to-recipes {
         border: 2px solid coral;
         padding: 10px;
+        background-color: rgb(250, 207, 191);
+        font-size: 25px;
     }
 
 
