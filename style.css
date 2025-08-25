@@ -8,16 +8,23 @@
         margin: auto 0px;
         text-align: center;
         padding: 10px;
-        border-bottom: 2px solid orange;
+        border-bottom: 2px solid black;
     }
 
     #front-page-header {
         text-align: center;
     }
 
+    #main-dish {
+        text-align: center;
+        font-size: 35px;
+        margin: 5px;
+    }
+
     /* Make recipes into grid layout */
     #list-of-links-to-recipes {
-        border: 2px solid red;
+        border: 2px solid coral;
+        background-color: rgb(255, 186, 161);
         display: grid;
         grid-template-columns: 1fr 1fr;
         list-style: none;
@@ -26,7 +33,7 @@
     }
 
     .links-to-recipes {
-        border: 2px solid gold;
+        border: 2px solid coral;
         padding: 10px;
     }
 
