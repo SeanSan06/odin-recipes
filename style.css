@@ -13,10 +13,14 @@
 
     #front-page-header {
         text-align: center;
+        margin: auto 0px;
+        padding: 10px;
+        border-bottom: 2px solid black;
     }
 
     #main-dish {
         text-align: center;
+        margin: auto 0px;
         font-size: 35px;
         margin: 5px;
     }
@@ -30,6 +34,7 @@
         list-style: none;
         gap: 10px;
         padding: 10px;
+        margin: 0px;
     }
 
     .links-to-recipes {
