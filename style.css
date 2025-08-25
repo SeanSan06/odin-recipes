@@ -3,46 +3,46 @@
 }
 
 /* Home page */
-h1 {
-    font-size: 50px;
-    margin: auto 0px;
-    text-align: center;
-    padding: 10px;
-    border-bottom: 2px solid orange;
-}
+    h1 {
+        font-size: 50px;
+        margin: auto 0px;
+        text-align: center;
+        padding: 10px;
+        border-bottom: 2px solid orange;
+    }
 
-#front-page-header {
-    text-align: center;
-}
+    #front-page-header {
+        text-align: center;
+    }
 
+    /* Make recipes into grid layout */
+    #list-of-links-to-recipes {
+        border: 2px solid red;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        list-style: none;
+        gap: 10px;
+        padding: 10px;
+    }
 
-#list-of-links-to-recipes {
-    border: 2px solid red;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    list-style: none;
-    gap: 10px;
-    padding: 10px;
-}
-
-.links-to-recipes {
-    border: 2px solid gold;
-    padding: 10px;
-}
+    .links-to-recipes {
+        border: 2px solid gold;
+        padding: 10px;
+    }
 
 
 /* Recipe pages */
-.header-food-page {
-    font-size: 50px;
-    margin: auto 0px;
-    text-align: center;
-    padding: 10px;
-}
+    .header-food-page {
+        font-size: 50px;
+        margin: auto 0px;
+        text-align: center;
+        padding: 10px;
+    }
 
-img {
-    display: block;
-    width: 95%;
-    height: auto;
-    align-self: center;
-    margin: 10px auto;
-}
+    img {
+        display: block;
+        width: 95%;
+        height: auto;
+        align-self: center;
+        margin: 10px auto;
+    }
