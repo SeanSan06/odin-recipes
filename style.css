@@ -28,8 +28,6 @@
 
     /* Make recipes into grid layout */
     #recipe-cards {
-        border: 2px solid coral;
-        background-color: rgb(255, 186, 161);
         display: grid;
         grid-template-columns: 1fr 1fr;
         list-style: none;
@@ -52,7 +50,7 @@
     .home-images {
         height: 85%;
         width: 95%;
-        border: 2px solid coral;
+        box-shadow: 0px 0px 15px 5px coral;
     }
 
     
