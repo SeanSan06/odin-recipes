@@ -27,7 +27,7 @@
     }
 
     /* Make recipes into grid layout */
-    #list-of-links-to-recipes {
+    #recipe-cards {
         border: 2px solid coral;
         background-color: rgb(255, 186, 161);
         display: grid;
@@ -37,22 +37,25 @@
         padding: 10px;
         margin: 0px;
         object-fit: cover;
-        
+    }
+
+    .card {
+            border: 2px solid coral;
+            display: flex;
+            padding: 10px;
+            background-color: rgb(250, 207, 191);
+            font-size: 25px;
+            flex-direction: column;
+            text-align: center;
     }
 
     .home-images {
         height: 85%;
         width: 95%;
         border: 2px solid coral;
-        
     }
 
-    .links-to-recipes {
-        border: 2px solid coral;
-        padding: 10px;
-        background-color: rgb(250, 207, 191);
-        font-size: 25px;
-    }
+    
 
 
 /* Recipe pages */
