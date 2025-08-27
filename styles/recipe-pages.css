@@ -6,7 +6,7 @@
     padding: 10px;
 }
 
-img {
+.recipe-page-images {
     display: block;
     width: 95%;
     height: auto;
