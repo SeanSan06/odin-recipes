@@ -1,27 +1,29 @@
 /* Home page */
-    #header-home {
-        font-size: 50px;
-        margin: auto 0px;
-        text-align: center;
-        padding: 10px;
-        border-bottom: 2px solid black;
-    }
+#header-home {
+    font-size: 50px;
+    margin: auto 0px;
+    text-align: center;
+    padding: 10px;
+    border-bottom: 2px solid black;
+}
 
-    #front-page-header {
-        text-align: center;
-        margin: auto 0px;
-        padding: 10px;
-        border-bottom: 2px solid black;
-    }
+#front-page-header {
+    text-align: center;
+    margin: auto 0px;
+    padding: 10px;
+    border-bottom: 2px solid black;
+}
 
-    #dishes {
-        text-align: center;
-        margin: auto 0px;
-        font-size: 35px;
-        margin: 5px;
-    }
+#dishes {
+    text-align: center;
+    margin: auto 0px;
+    margin-top: 5px;
+    margin-bottom: -5px;
+    font-size: 35px;
+}
 
-    /* Make recipes into grid layout */
+/* Make recipes into grid layout */
+    /* Main dishes */
     #recipe-cards {
         display: grid;
         grid-template-columns: 1fr 1fr;
@@ -48,8 +50,12 @@
         box-shadow: 0px 0px 15px 5px rgb(235, 178, 32);
     }
 
+    .card-info {
+        font-family: 'Courier New', Courier, monospace;
+    }
 
-    #recipe-cards2 {
+    /* Drinks */
+    #recipe-cards-drinks {
         display: grid;
         grid-template-columns: 1fr 1fr;
         list-style: none;
@@ -59,7 +65,7 @@
         object-fit: cover;
     }
 
-    .card2 {
+    .card-drinks {
             border: 2px solid lightseagreen;
             display: flex;
             padding: 10px;
@@ -69,8 +75,12 @@
             text-align: center;
     }
 
-    .home-images2 {
+    .home-images-drinks {
         height: 85%;
         width: 95%;
         box-shadow: 0px 0px 15px 5px lightseagreen;
+    }
+
+    .card-info-drinks {
+        font-family: 'Courier New', Courier, monospace;
     }
