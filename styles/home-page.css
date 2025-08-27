@@ -24,7 +24,7 @@
 
 /* Make recipes into grid layout */
     /* Main dishes */
-    #recipe-cards {
+    #recipe-cards-main {
         display: grid;
         grid-template-columns: 1fr 1fr;
         list-style: none;
@@ -34,7 +34,7 @@
         object-fit: cover;
     }
 
-    .card {
+    .card-main {
             border: 2px solid rgb(235, 178, 32);
             display: flex;
             padding: 10px;
@@ -44,14 +44,14 @@
             text-align: center;
     }
 
-    .home-images {
+    .home-images-main {
         height: 85%;
         width: 95%;
         margin: 2.5% auto;
         box-shadow: 0px 0px 15px 5px rgb(235, 178, 32);
     }
 
-    .card-info {
+    .card-info-main {
         font-family: 'Courier New', Courier, monospace;
     }
 
