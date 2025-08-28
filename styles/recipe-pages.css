@@ -50,7 +50,7 @@
     }
 
     /* Main Dishes */
-    .main-dish-page-description {
+    .main-dish-page-description, .food-page-ingredients-steps {
     background-color: rgb(235, 227, 135);
     margin-left: 2.5%;
     margin-right: 2.5%;
@@ -70,7 +70,7 @@
     }
 
     /* Drinks */
-    .drink-page-description {
+    .drink-page-description, .drink-page-ingredients-steps {
     background-color: skyblue;
     margin-left: 2.5%;
     margin-right: 2.5%;
