@@ -15,16 +15,50 @@
     box-shadow: 0px 0px 15px 5px rgb(122, 122, 122);
     border-radius: 5%;
 }
+
+    /* Recipe titles */
+    #cheese-burger-food-page-title {
+        color: brown;
+    }
+
+    #bbq-ribs-food-page-title {
+        color: darkred;
+    }
+
+    #bacon-hot-dog-food-page-title {
+        color: tan;
+    }
+
+    #pepperoni-pizza-food-page-title {
+        color: rgb(189, 18, 18);
+    }
+
+    #lemonade-food-page-title {
+        color: rgb(255, 241, 112);
+    }
+
+    #coconut-food-page-title {
+        color: rgb(102, 70, 0);
+    }
+
+    #strawberry-milkshake-food-page-title {
+        color: palevioletred;
+    }
+
+    #apple-juice-food-page-title {
+        color: rgb(255, 153, 0);
+    }
+
     /* Main Dishes */
-        .main-dish-page-description {
-        background-color: rgb(235, 227, 135);
-        margin-left: 2.5%;
-        margin-right: 2.5%;
-        margin-top: 25px;
-        border: 2px solid rgb(235, 178, 32);
-        padding-left: 10px;
-        box-shadow: 0px 0px 20px 1.5px rgb(235, 178, 32);
-        border-radius: 15px;
+    .main-dish-page-description {
+    background-color: rgb(235, 227, 135);
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+    margin-top: 25px;
+    border: 2px solid rgb(235, 178, 32);
+    padding-left: 10px;
+    box-shadow: 0px 0px 20px 1.5px rgb(235, 178, 32);
+    border-radius: 15px;
     }
 
     .main-dish-page-description h2 {
