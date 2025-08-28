@@ -15,3 +15,16 @@
     box-shadow: 0px 0px 15px 5px rgb(122, 122, 122);
     border-radius: 5%;
 }
+
+.food-page-description {
+    background-color: rgb(235, 227, 135);
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+    margin-top: 25px;
+    border: 2px solid rgb(235, 178, 32);
+    padding-left: 5px;
+}
+
+.food-page-description h2 {
+    margin-top: 5px;
+}
