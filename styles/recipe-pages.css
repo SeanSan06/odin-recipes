@@ -69,6 +69,10 @@
         margin: 15px;
     }
 
+    .food-page-ingredients-steps-title-list {
+        margin: 15px;
+    }
+
     /* Drinks */
     .drink-page-description, .drink-page-ingredients-steps {
     background-color: skyblue;
@@ -86,5 +90,9 @@
     }
 
     .drink-page-description p {
+        margin: 15px;
+    }
+
+    .drink-page-ingredients-steps-title-list {
         margin: 15px;
     }
